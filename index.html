@@ -4,29 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>TK Photography</h1>
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#top">^ Top</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#top">^ Top</a></li>
+            </ul>
+        </nav>
 
-        <h2>About</h2>
-        <img src="images/TK.png" alt="Picture of Tk">
-        
-        <p>Hello!</p>
-        <p>I'm TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p>
+        <section class="about">
+            <h2>About</h2>
+            <img id="headerImg" src="images/TK.png" alt="Picture of Tk">
+            
+            <p>Hello!</p>
+            <p>I'm TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p>
+        </section>
     </header>
 
-    <section>
+    <main>
+    <section class="myGallery">
         <h2>Gallery</h2>
-        <p>Here are some highlights of my work.</p>
-        <p>The locations and year are in the caption.</p>
-
+        <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+        
         <figure>
             <img src="images/Chile.png" alt="Picture of Chile">
             <figcaption>Chile, 2001</figcaption>
@@ -88,7 +94,7 @@
         </figure>
     </section>
 
-    <section>  
+    <section class="myContact">  
         <h2>Contact</h2>
         <p>Please fill out this form and I’ll connect with you soon.</p>
 
@@ -113,7 +119,7 @@
             </div>
         </form>
     </section>
-
+    </main>
     <footer> 
         <small>Copyright 2021 TK Photography</small>
     </footer> 

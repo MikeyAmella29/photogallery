@@ -1,0 +1,101 @@
+html{
+    background-color: black;
+}
+
+main{
+    background-color: white;
+}
+
+body {
+    width: 1310px;
+    font-family: Arial;
+   
+    background-color: white;
+}
+
+header {
+    background-color: black;
+    width: 1310;
+}
+ 
+h1 {
+    margin-right: 40px;
+    color: #007D7B;
+}
+
+nav {
+    float: right;
+}
+
+nav li {
+    margin-left: 100px;
+    display:inline-flex;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #007D7B;
+    color:#ffffff;
+}
+
+[href="#top"] {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    border-radius:10px 0 0px 0px;
+}
+
+.about {
+    background-color: white;
+    display: inline-block;
+    width: 1310px;
+
+}
+
+#headerImg {
+    float: left;
+    margin-right: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.topHeader {
+    background-color: black;
+}
+
+header h2 {
+    float: right;
+    margin-right: 20px;
+}
+
+figure {
+    display: inline-block;
+    margin-left: 9px;
+    margin-right: 1px;
+    position: center;
+}
+
+figcaption {
+    position: absolute;
+}
+
+.myContact {
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+}
+
+footer {
+    background-color: black;
+    font-size: 16px;
+    font-family: arial;
+    color: white;
+    text-align: center;
+}
+
+/* for caption displays make a class for color and way its oriented (position) and add that class with the specific styles into the html /*
