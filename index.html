@@ -14,109 +14,100 @@
             <ul>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#top">^ Top</a></li>
+                <li><a href="#myContact">Contact</a></li>
+                <li><a href="#top">^<br>Top</a></li>
             </ul>
         </nav>
 
         <section class="about">
-            <h2>About</h2>
+            <h2>ABOUT</h2>
             <img id="headerImg" src="images/TK.png" alt="Picture of Tk">
             
-            <p>Hello!</p>
-            <p>I'm TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p>
+            <p>Hello!<br>I'm TK and I’m a photographer.<br> I love looking at life through the lens of my<br>camera. Landscape photography is my <br>speciality and it’s taken me all over the world.</p>
         </section>
     </header>
 
     <main>
     <section class="myGallery">
-        <h2>Gallery</h2>
+        <h2>GALLERY</h2>
         <p>Here are some highlights of my work. The locations and year are in the caption.</p>
         
         <figure>
             <img src="images/Chile.png" alt="Picture of Chile">
-            <figcaption>Chile, 2001</figcaption>
+            <figcaption class="imageOnePos">Chile, 2001</figcaption>
         </figure>
 
-        <figure>
+        <figure class="whiteCaption">
             <img src="images/Guatemala.png" alt="Picture of Guatemala">
-            <figcaption>Guatemala, 1997</figcaption>
+            <figcaption class="imageTwoPos">Guatemala, 1997</figcaption>
         </figure>
         
-        <figure>
+        <figure class="whiteCaption">
             <img src="images/Hawaii.png" alt="Picture of Hawaii">
-            <figcaption>Hawaii, 2010</figcaption>
+            <figcaption class="imageThreePos">Hawaii, 2010</figcaption>
         </figure>
 
         <figure>
             <img src="images/Iran.png" alt="Picture of Iran">
-            <figcaption>Iran, 1999</figcaption>
+            <figcaption class="imageFourPos">Iran, 1999</figcaption>
         </figure>
 
-        <figure>
+        <figure class="whiteCaption">
             <img src="images/Ireland.png" alt="Picture of Ireland">
-            <figcaption>Ireland, 2012</figcaption>
+            <figcaption class="imageFivePos">Ireland, 2012</figcaption>
         </figure>
 
-        <figure>
+        <figure class="whiteCaption">
             <img src="images/Italy.png" alt="Picture of Italy">
-            <figcaption>Italy, 2015</figcaption>
+            <figcaption class="imageSixPos">Italy, 2015</figcaption>
         </figure>
 
-        <figure>
+        <figure class="whiteCaption">
             <img src="images/Moab-Desert.png" alt="Picture of Moab Desert">
-            <figcaption>Moab Desert, 2020</figcaption>
+            <figcaption class="imageSevenPos">Moab Desert, 2020</figcaption>
         </figure>
 
         <figure>
             <img src="images/Rocky-Mountains.png" alt="Picture of Rocky Mountains">
-            <figcaption>Rocky Mountains, 2009</figcaption>
+            <figcaption class="imageEightPos">Rocky Mountains, 2009</figcaption>
         </figure>
 
         <figure>
             <img src="images/Switzerland.png" alt="Picture of Switzerland">
-            <figcaption>Switzerland, 2014</figcaption>
+            <figcaption class="imageNinePos">Switzerland, 2014</figcaption>
         </figure>
 
-        <figure>
+        <figure class="whiteCaption">
             <img src="images/UK.png" alt="Picture of UK">
-            <figcaption>UK, 2005</figcaption>
+            <figcaption class="imageTenPos">UK, 2005</figcaption>
         </figure>
 
-        <figure>
+        <figure class="whiteCaption">
             <img src="images/USA.png" alt="Picture of USA">
-            <figcaption>USA, 2021</figcaption>
+            <figcaption class="imageElevenPos">USA, 2021</figcaption>
         </figure>
 
-        <figure>
+        <figure class="whiteCaption">
             <img src="images/Wyoming.png" alt="Picture of Wyoming">
-            <figcaption>Wyoming, 2021</figcaption>
+            <figcaption class="imageTwelvePos">Wyoming, 2021</figcaption>
         </figure>
     </section>
 
-    <section class="myContact">  
-        <h2>Contact</h2>
+    <section id="myContact">  
+        <h2>CONTACT</h2>
         <p>Please fill out this form and I’ll connect with you soon.</p>
 
-        <form action="#" method="get" class="myForm">
-            <div class="myForm">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" placeholder="Your full name" required>
-            </div>
-
-            <div class="myForm">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="Enter your email address" required>
-            </div>
-
-            <div class="myForm">
-                <label for="message">Message</label>
-                <input type="text" name="message" id="message" placeholder="What can I help you with?">
-            </div>
-
-            <div class="myForm">
-                <input type="submit" id="submit" value="Submit">
-            </div>
+        <form action="#" method="get" class="myForm"> 
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="YOUR FULL NAME" required>
+            
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="ENTER YOUR EMAIL ADDRESS" required>
+            
+            <label for="message">Message</label>
+            <input type="text" name="message" id="message" placeholder="WHAT CAN I HELP YOU WITH?">
+          
+            <input type="submit" id="submit" value="Submit">
         </form>
     </section>
     </main>

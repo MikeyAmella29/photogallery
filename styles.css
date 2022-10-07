@@ -6,31 +6,38 @@ main{
     background-color: white;
 }
 
+main h2 {
+    font-size: 40px;
+}
+
 body {
     width: 1310px;
-    font-family: Arial;
-   
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
     background-color: white;
 }
 
 header {
     background-color: black;
-    width: 1310;
+    width: 1310px;
 }
  
 h1 {
     margin-right: 40px;
     color: #007D7B;
-}
-
-nav {
-    float: right;
+    float: left;
+    font-size: 40px;
 }
 
 nav li {
     margin-left: 100px;
-    display:inline-flex;
+    display:inline-block;
     text-decoration: none;
+    float: right;
+    margin: 40px;
+    margin-left: 90px;
+    font-size: 16px;
+    color: white;
 }
 
 nav a {
@@ -44,9 +51,20 @@ nav a:hover {
 
 [href="#top"] {
     position:fixed;
+    text-align: center;
     bottom:0px;
     right:0px;
-    border-radius:10px 0 0px 0px;
+    border-radius: 1px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-right: 10px;
+    background-color: #007D7B;
+    color: white;
+}
+
+[href="#top"]:hover {
+    background-color: white;
+    color: #007D7B;
 }
 
 .about {
@@ -56,6 +74,22 @@ nav a:hover {
 
 }
 
+.about h2 {
+    position: absolute;
+    right: 60px;
+    margin-top: 1px;
+    text-align: left;
+    font-size: 40px;
+}
+
+.about p {
+    margin-top: 60px;
+    text-align: right;
+    padding-right: 15px;
+    font-size: 16px;
+   
+}
+
 #headerImg {
     float: left;
     margin-right: 100px;
@@ -63,31 +97,87 @@ nav a:hover {
     padding-top: 10px;
 }
 
-.topHeader {
-    background-color: black;
-}
 
 header h2 {
     float: right;
     margin-right: 20px;
 }
 
+.myGallery h2, p {
+    padding-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+
+
 figure {
     display: inline-block;
     margin-left: 9px;
     margin-right: 1px;
-    position: center;
+    margin-top: 2px;
 }
 
 figcaption {
     position: absolute;
 }
 
-.myContact {
+#myContact {
     background-color: black;
     text-align: center;
     color: #ffffff;
     display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.myForm{
+    display: inline-block;
+}
+
+
+form {
+	text-align: left;
+	background-color: black;
+	margin: 0 auto;
+	border-radius: 16px;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+
+label {
+    color: white;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+input {
+	display: block;
+	width: 500px;
+	height: 20px;
+}
+
+select {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+::placeholder {
+    color: #007D7B;
+    font-size: 12px;
+}
+
+#submit {
+    width: 200px;
+    height: 30px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #007D7B;
+    border-style: none;
+    border-radius: 7px;
 }
 
 footer {
@@ -98,4 +188,87 @@ footer {
     text-align: center;
 }
 
-/* for caption displays make a class for color and way its oriented (position) and add that class with the specific styles into the html /*
+.whiteCaption {
+    color: white;
+    font-size: 16px;
+}
+
+.imageOnePos, .imageTwoPos {
+    top: 405px;
+    padding-bottom: 60px;
+    padding-left: 5px;
+    position: absolute;
+    font-size: 16px;
+}
+
+.imageThreePos {
+    position: absolute;
+    top: 650px;
+    right: 100px;
+}
+
+.imageFourPos {
+    top: 705px;
+    padding-bottom: 60px;
+    padding-left: 2px;
+    position: absolute;
+    font-size: 16px;
+}
+
+.imageFivePos {
+    position: absolute;
+    top: 1300px;
+    right: 540px;
+}
+
+.imageSixPos {
+    top: 1300px;
+    padding-bottom: 60px;
+    padding-left: 5px;
+    position: absolute;
+    font-size: 16px;
+}
+
+.imageSevenPos {
+    position: absolute;
+    top: 1600px;
+    left: 320px;
+}
+
+.imageEightPos {
+    top: 1355px;
+    padding-bottom: 60px;
+    padding-left: 2px;
+    position: absolute;
+    font-size: 16px;
+}
+
+.imageNinePos {
+    top: 1600px;
+    padding-bottom: 60px;
+    padding-left: 5px;
+    position: absolute;
+    font-size: 16px;
+}
+
+.imageTenPos {
+    position: absolute;
+    top: 1915px;
+    left: 400px;
+}
+
+.imageElevenPos {
+    top: 1665px;
+    padding-bottom: 60px;
+    padding-left: 5px;
+    position: absolute;
+    font-size: 16px;
+}
+
+.imageTwelvePos {
+    top: 1665px;
+    padding-bottom: 60px;
+    padding-left: 5px;
+    position: absolute;
+    font-size: 16px;
+}
